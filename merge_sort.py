@@ -1,6 +1,6 @@
 
 def mergeSort(arr):
-    """ Merge sort implementation. Returns sorted array; original array is unchanged.
+    """ Merge sort. Returns sorted array; original array is unchanged.
         type arr: List[]
         rtype: List[]
     """
