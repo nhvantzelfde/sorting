@@ -1,11 +1,9 @@
 
-
 def mergeSort(arr):
     """ Merge sort implementation. Returns sorted array; original array is unchanged.
         type arr: List[]
         rtype: List[]
     """
-    
     if len(arr) <= 1:
         return arr
     
@@ -23,7 +21,7 @@ def mergeSort(arr):
             result.append(left[l_pt])
             l_pt += 1
         else:
-            if left(l_pt) <= right(r_pt):
+            if left[l_pt] <= right[r_pt]:
                 result.append(left[l_pt])
                 l_pt += 1
             else:
