@@ -45,7 +45,7 @@ class MinHeap(object):
             self.__minHeapify(smallest)
         
     def insert(self, key):
-        self.values.append(-float("inf"))
+        self.values.append(float("inf"))
         self.decreaseKey(self.__last(),key)
 
     def delete(self, value):
