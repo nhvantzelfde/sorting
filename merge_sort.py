@@ -31,7 +31,7 @@ def mergeSort(arr):
     return result
 
 def main():
-    arr = [1, 3, 5, 12, 31, 9, -1, -123, 34, 65, 8, 1, 3, 0]
+    arr = [1, 3, 5, 12, 31, 9, -1, -123, 34, 65, 8, 1, 3, 0, -91]
     sorted_arr = mergeSort(arr)
     print sorted_arr
 
