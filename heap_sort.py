@@ -10,7 +10,7 @@ class MinHeap(object):
         self.__repCheck()
 
     def decreaseKey(self, i, key):
-        if i >= self.size() or key >= self.values[i]:
+        if i >= self.size() or key > self.values[i]:
             return
         self.values[i] = key
         p = self.__parent(i)
