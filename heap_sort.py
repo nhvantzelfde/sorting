@@ -6,8 +6,8 @@ def heapSort(arr):
     """
     Sorts an array by creating a heap and continually extracting minimums.
     Array is not sorted in place.
-    type arr: List[]
-    rtype: List[]
+    :type arr: List[]
+    :rtype: List[]
     """
     heap = MinHeap()
     heap.createMinHeap(arr)

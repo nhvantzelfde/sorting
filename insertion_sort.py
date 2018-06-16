@@ -1,8 +1,9 @@
 
 def insertionSort(arr):
-    """ Sorts array arr in place, using insertion sort
-        :type arr: List[object]
-        :rtype: none
+    """
+    Sorts array arr in place, using insertion sort
+    :type arr: List[object]
+    :rtype: none
     """
     for i in range(len(arr)):
         for j in range(i-1,-1,-1):

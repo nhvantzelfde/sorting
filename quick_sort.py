@@ -2,11 +2,12 @@ import random
 import datetime
 
 def quickSort(arr, start = -1, end = -1):
-    """ Quick sort, deterministic. Sorts array arr in place. Always chooses last element as pivot.
-        type arr: List[]
-        type start: int
-        type end: int
-        rtype: none
+    """
+    Quick sort, deterministic. Sorts array arr in place. Always chooses last element as pivot.
+    :type arr: List[]
+    :type start: int
+    :type end: int
+    :rtype: none
     """
     if start == -1: start = 0
     if end == -1: end = len(arr)-1
@@ -26,11 +27,12 @@ def quickSort(arr, start = -1, end = -1):
     quickSort(arr, l_pt, end)
 
 def quickSortRand(arr, start = -1, end = -1):
-    """ Quick sort, with random pivots. Sorts array arr in place. 
-        type arr: List[]
-        type start: int
-        type end: int
-        rtype: none
+    """
+    Quick sort, with random pivots. Sorts array arr in place. 
+    :type arr: List[]
+    :type start: int
+    :type end: int
+    :rtype: none
     """
     if start == -1: start = 0
     if end == -1: end = len(arr)-1

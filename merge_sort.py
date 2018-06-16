@@ -1,8 +1,9 @@
 
 def mergeSort(arr):
-    """ Merge sort. Returns sorted array; original array is unchanged.
-        type arr: List[]
-        rtype: List[]
+    """
+    Merge sort. Returns sorted array; original array is unchanged.
+    :type arr: List[]
+    :rtype: List[]
     """
     if len(arr) <= 1:
         return arr
